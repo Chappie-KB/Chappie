@@ -1,0 +1,4 @@
+#rules proyek KB
+>pada saat awal memulai mereka para zombie akan menyebar lalu membentuk 1 garis lurus dan kemudian menyebar lagi
+>setelah menyebar lagi,mereka akan menyebar menyerang manusia yang paling dekat terlebih dahulu
+>Akan ada manusia yang mengorbankan nyawanya demi menyelamatkan manusia lain agar selamat
