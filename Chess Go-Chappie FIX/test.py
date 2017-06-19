@@ -669,6 +669,11 @@ def execute2(sim):
                  sc=(str(string.lowercase[indexawal])+str(indexkedua+1))
                 
                  c = parse_coord(sc)
+                 if not sim.pos.move(c):
+                        # rule violation
+                        cont = True
+                        args = "err2"
+                        err = True
                  if c < len(sim.pos.board):
 
                      if c is "wi":
@@ -697,7 +702,12 @@ def execute2(sim):
 
 
         sc=(str(string.lowercase[indexawal])+str(indexkedua+1))
-      
+        c = parse_coord(sc)
+        if not sim.pos.move(c):
+                        # rule violation
+                        cont = True
+                        args = "err2"
+                        err = True
         if c < len(sim.pos.board):
                      if c is "wi":
                         # wrong input
